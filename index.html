@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StarWars.com</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="socialMedia">
+        <ul>
+          <li>
+            <a href="/"
+              ><i class="fa-brands fa-tiktok fa-lg" style="color: #ffffff"></i>
+            </a>
+          </li>
+          <li>
+            <a href="/">
+              <i
+                class="fa-brands fa-instagram fa-lg"
+                style="color: #ffffff"
+              ></i>
+            </a>
+          </li>
+          <li>
+            <a href="/">
+              <i
+                class="fa-brands fa-x-twitter fa-lg"
+                style="color: #ffffff"
+              ></i>
+            </a>
+          </li>
+          <li>
+            <a href="/">
+              <i class="fa-brands fa-facebook fa-lg" style="color: #ffffff"></i>
+            </a>
+          </li>
+          <li>
+            <a href="/">
+              <i class="fa-brands fa-youtube fa-lg" style="color: #ffffff"></i>
+            </a>
+          </li>
+          <li>
+            <a href="/">
+              <img
+                src="https://lumiere-a.akamaihd.net/v1/images/sw_nav_kids_937ed58b.svg?region=0%2C0%2C40%2C15"
+                alt="..."
+                width="50"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="navbarStarWarsİcon">
+        <a class="navbar-brand">
+          <img
+            src="https://lumiere-a.akamaihd.net/v1/images/sw_logo_stacked_2x-52b4f6d33087_7ef430af.png?region=0,0,586,254"
+            alt="..."
+            width="180px"
+          />
+        </a>
+      </div>
+      <form class="d-flex" role="search">
+        <button class="btn" type="submit">
+          <i
+            class="fa-solid fa-magnifying-glass fa-lg"
+            style="color: #f7f7f7"
+          ></i>
+          SEARCH
+        </button>
+        <button class="btn" type="submit">
+          <i class="fa-regular fa-user fa-lg" style="color: #f7f7f7"></i>
+          LOG IN
+        </button>
+      </form>
+    </nav>
+    <section>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link fw-semibold" href="#">NEWS + FEATURES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-semibold" href="#">VIDEO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-semibold" href="#">FILMS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-semibold" href="#">SERIES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-semibold" href="#">GAMES + INTERACTİVE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-semibold" href="#">DATABANK</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-semibold" href="#">DISNEY+</a>
+        </li>
+      </ul>
+      <hr />
+    </section>
+    <section>
+      <div class="container">
+        <div id="carouselExample" class="carousel slide">
+          <p>ALL OF YOU STAR WARS FAVORİTES NOW STREAMİNG ON DİSNEY+</p>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://lumiere-a.akamaihd.net/v1/images/the-acolyte-character-posters-hero_423a878d.jpeg?region=0,0,1600,686"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-item-text">
+                <h1>
+                  THE ACOLYTE CHARACTER<br />
+                  POSTERS ARE HERE
+                </h1>
+                <h5 class="mt-3">
+                  The Jedi arrive in new lightsaber-swishing digital <br />
+                  posters featuring friends and foes from the <br />
+                  upcoming Disney+ series.
+                </h5>
+                <button
+                  class="btn btn-primary carousel-item-btn mt-3 fw-semibold"
+                >
+                  TAKE A LOOK
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://lumiere-a.akamaihd.net/v1/images/acolyte-red-carpet-sphere-hero-desktop_56cd4360.jpeg?region=0,0,1600,686"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-item-text">
+                <h1>
+                  THE ACOLYTE CHARACTER<br />
+                  POSTERS ARE HERE
+                </h1>
+                <h5 class="mt-3">
+                  The Jedi arrive in new lightsaber-swishing digital <br />
+                  posters featuring friends and foes from the <br />
+                  upcoming Disney+ series.
+                </h5>
+                <button
+                  class="btn btn-primary carousel-item-btn mt-3 fw-semibold"
+                >
+                  TAKE A LOOK
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://lumiere-a.akamaihd.net/v1/images/creating-acolyte-sphere-hero-desktop_446591bf.jpeg?region=0,0,1600,686"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-item-text">
+                <h1>
+                  THE ACOLYTE CHARACTER<br />
+                  POSTERS ARE HERE
+                </h1>
+                <h5 class="mt-3">
+                  The Jedi arrive in new lightsaber-swishing digital <br />
+                  posters featuring friends and foes from the <br />
+                  upcoming Disney+ series.
+                </h5>
+                <button
+                  class="btn btn-primary carousel-item-btn mt-3 fw-semibold"
+                >
+                  TAKE A LOOK
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://lumiere-a.akamaihd.net/v1/images/sol-of-the-jedi-hero-desktop_6c0b9540.jpeg?region=0,0,1600,686"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-item-text">
+                <h1>
+                  THE ACOLYTE CHARACTER<br />
+                  POSTERS ARE HERE
+                </h1>
+                <h5 class="mt-3">
+                  The Jedi arrive in new lightsaber-swishing digital <br />
+                  posters featuring friends and foes from the <br />
+                  upcoming Disney+ series.
+                </h5>
+                <button
+                  class="btn btn-primary carousel-item-btn mt-3 fw-semibold"
+                >
+                  TAKE A LOOK
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://lumiere-a.akamaihd.net/v1/images/john-williams-amandla-stenbergsw2-hero-desktop_b9abf56c.jpeg?region=0,0,2048,878"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-item-text">
+                <h1>
+                  THE ACOLYTE CHARACTER<br />
+                  POSTERS ARE HERE
+                </h1>
+                <h5 class="mt-3">
+                  The Jedi arrive in new lightsaber-swishing digital <br />
+                  posters featuring friends and foes from the <br />
+                  upcoming Disney+ series.
+                </h5>
+                <button
+                  class="btn btn-primary carousel-item-btn mt-3 fw-semibold"
+                >
+                  TAKE A LOOK
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://lumiere-a.akamaihd.net/v1/images/tpm-theatres-spheres-hero-desktop_d3aefa27.jpeg?region=0,0,2048,878"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-item-text">
+                <h1>
+                  THE ACOLYTE CHARACTER<br />
+                  POSTERS ARE HERE
+                </h1>
+                <h5 class="mt-3">
+                  The Jedi arrive in new lightsaber-swishing digital <br />
+                  posters featuring friends and foes from the <br />
+                  upcoming Disney+ series.
+                </h5>
+                <button
+                  class="btn btn-primary carousel-item-btn mt-3 fw-semibold"
+                >
+                  TAKE A LOOK
+                </button>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container mt-5">
+        <div>
+          <img src="img/starwars-acolyte.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="theAcolyteMovie">
+          <div class="row">
+            <div class="col-12 d-flex">
+              <div class="card" style="max-width: 540px">
+                <div class="row g-0">
+                  <div class="col-6">
+                    <img
+                      src="https://lumiere-a.akamaihd.net/v1/images/the-acolyte-leslye-headland-sashsingle-feature_629982b6.jpeg?region=0%2C0%2C1280%2C720&width=1200"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-6">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        The Acolyte Creator Leslye Headland Interview
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="max-width: 540px">
+                <div class="row g-0">
+                  <div class="col-6">
+                    <img
+                      src="https://lumiere-a.akamaihd.net/v1/images/mae-databank_986317c4.jpeg?region=0%2C0%2C1600%2C900&width=1200"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-6">
+                    <div class="card-body">
+                      <h5 class="card-title">Databank I The Acolyte</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            id="carouselExampleAutoplaying"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card" style="width: 22rem">
+                  <img
+                    src="https://lumiere-a.akamaihd.net/v1/images/the-acolyte-character-posters-featured_26949cc8.jpeg?region=0%2C0%2C1280%2C720"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <p class="card-text">The Acolyte Character Posters Debut</p>
+                  </div>
+                </div>
+                <div class="card" style="width: 22rem">
+                  <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/zotV8szyesw?si=yFDMXrBTLmOPVguY"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="card-body">
+                    <p class="card-text">Creating the acolyte | The Acolyte</p>
+                  </div>
+                </div>
+                <div class="card" style="width: 22rem">
+                  <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/ABX8upKvrto?si=iNsOfilrUljo5VQY"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="card-body">
+                    <p class="card-text">Mae and Sol Fight | The Acolyte</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div
+            id="carouselExampleInterval"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <div class="card-group">
+                  <div class="card">
+                    <a
+                      href=" https://www.tiktok.com/@starwars/video/7372746472195968299"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      data-core-id="619893ed0ac4a7c19f56742d"
+                      class="entity-link outer-link"
+                      aria-label="Just wait until you meet Master Sol. 🥹 1 of 18"
+                      data-title="Just wait until you meet Master Sol. 🥹"
+                      tabindex="0"
+                    >
+                      <div class="video-box entity-box thumb-border">
+                        <div class="aspect is-native-video">
+                          <img
+                            class="thumb"
+                            width="100%"
+                            alt="Lee Jung Jae"
+                            data-src="https://lumiere-a.akamaihd.net/v1/images/ljj-social-share-portrait_c50573c2.jpeg?region=0,0,500,649"
+                            data-width="100%"
+                            data-height="100%"
+                            data-aspect_ratio="1.298"
+                            data-orientation="portrait"
+                            data-legacy="true"
+                            src="https://lumiere-a.akamaihd.net/v1/images/ljj-social-share-portrait_c50573c2.jpeg?region=0,0,500,649&amp;width=320"
+                          />
+                        </div>
+                      </div>
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title">Just Wait Until you meet master sol.</h5>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <a
+                      href=" https://www.tiktok.com/@starwars/video/7372747412667895082"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      data-core-id="619893b5114efefa3f183dc0"
+                      class="entity-link outer-link"
+                      aria-label="I understood that reference. 2 of 18"
+                      data-title="I understood that reference."
+                      tabindex="0"
+                    >
+                      <div class="video-box entity-box thumb-border">
+                        <div class="aspect is-native-video">
+                          <img
+                            class="thumb"
+                            width="100%"
+                            alt="Manny Jacinto"
+                            data-src="https://lumiere-a.akamaihd.net/v1/images/mj-social-share-portrait_640181b3.jpeg?region=0,0,500,649"
+                            data-width="500"
+                            data-height="649"
+                            data-aspect_ratio="1.298"
+                            data-orientation="portrait"
+                            data-legacy="true"
+                            src="https://lumiere-a.akamaihd.net/v1/images/mj-social-share-portrait_640181b3.jpeg?region=0,0,500,649&amp;width=320"
+                          />
+                        </div>
+                      </div>
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title">I understood that reference</h5>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <a
+                      href=" https://www.tiktok.com/@starwars/video/7372748701514665259"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      data-core-id="6198935c12c3d590e6db39f6"
+                      class="entity-link outer-link"
+                      aria-label="All caps.  3 of 18"
+                      data-title="All caps. "
+                      tabindex="0"
+                    >
+                      <div class="video-box entity-box thumb-border">
+                        <div class="aspect is-native-video">
+                          <img
+                            class="thumb"
+                            width="100%"
+                            alt="Amandla Stenberg"
+                            data-src="https://lumiere-a.akamaihd.net/v1/images/as-social-share-portrait_d59e7da4.jpeg?region=0,0,500,649"
+                            data-width="500"
+                            data-height="649"
+                            data-aspect_ratio="1.298"
+                            data-orientation="portrait"
+                            data-legacy="true"
+                            src="https://lumiere-a.akamaihd.net/v1/images/as-social-share-portrait_d59e7da4.jpeg?region=0,0,500,649&amp;width=320"
+                          />
+                        </div>
+                      </div>
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title">All Caps</h5>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <a
+                      href=" https://www.instagram.com/starwars/reel/C7ZfWsbJ0wC/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      data-core-id="619892d505d2690c84600634"
+                      class="entity-link outer-link"
+                      aria-label="Spotted at The Acolyte Launch Event. ✨ 4 of 18"
+                      data-title="Spotted at The Acolyte Launch Event. ✨"
+                      tabindex="0"
+                    >
+                      <div class="video-box entity-box thumb-border">
+                        <div class="aspect is-native-video">
+                          <img
+                            class="thumb"
+                            width="100%"
+                            alt="Brittany Broski"
+                            data-src="https://lumiere-a.akamaihd.net/v1/images/bb-social-share-portrait_56dbcd90.jpeg?region=0,0,500,649"
+                            data-width="500"
+                            data-height="649"
+                            data-aspect_ratio="1.298"
+                            data-orientation="portrait"
+                            data-legacy="true"
+                            src="https://lumiere-a.akamaihd.net/v1/images/bb-social-share-portrait_56dbcd90.jpeg?region=0,0,500,649&amp;width=320"
+                          />
+                        </div>
+                      </div>
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title">Spottad at the Acolyte Launch Event</h5>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <a
+                      href=" https://www.tiktok.com/@starwars/video/7372687644247067947"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      data-core-id="6193a89ea56f0aa6f5e8512d"
+                      class="entity-link outer-link"
+                      aria-label="Baddie szn. 5 of 18"
+                      data-title="Baddie szn."
+                      tabindex="0"
+                    >
+                      <div class="video-box entity-box thumb-border">
+                        <div class="aspect is-native-video">
+                          <img
+                            class="thumb"
+                            width="100%"
+                            alt="Amandla Stenberg"
+                            data-src="https://lumiere-a.akamaihd.net/v1/images/a-b-social-share-portrait_b2924750.jpeg?region=0,0,500,649"
+                            data-width="500"
+                            data-height="649"
+                            data-aspect_ratio="1.298"
+                            data-orientation="portrait"
+                            data-legacy="true"
+                            src="https://lumiere-a.akamaihd.net/v1/images/a-b-social-share-portrait_b2924750.jpeg?region=0,0,500,649&amp;width=320"
+                          />
+                        </div>
+                      </div>
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title">Baddie szn</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="latetsVidoeALL">
+          <div>
+            <h4>Latest News + Features</h4>
+            <hr>
+            <div
+            id="carouselExampleAutoplaying"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card" style="width: 26rem">
+                  <img
+                    src="https://lumiere-a.akamaihd.net/v1/images/the-acolyte-red-carpet_article-feature_351c6a0b.jpeg?region=0%2C0%2C1600%2C900"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <p class="card-text">The Acolyte Launch Event Takes Hollywood</p>
+                  </div>
+                </div>
+                <div class="card ms-5" style="width: 26rem">
+                  <img src="https://lumiere-a.akamaihd.net/v1/images/ben-burtt-the-phantom-menace-feature_c9fe20bb.jpeg?region=0%2C0%2C1280%2C720" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Creating the acolyte | The Acolyte</p>
+                  </div>
+                </div>
+                <div class="card ms-5" style="width: 26rem">
+                  <img src="https://lumiere-a.akamaihd.net/v1/images/gary-rydstrom-the-phantom-menace-feature_9e219a32.jpeg?region=0%2C0%2C1280%2C720" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Mae and Sol Fight | The Acolyte</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="mt-5">
+            <h4>Latest Video</h4>
+            <hr>
+            <div
+            id="carouselExampleAutoplaying"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card" style="width: 26rem">
+                  <iframe width="100 src="https://www.youtube.com/embed/zotV8szyesw?si=vUPXb6WSIvrNo2kF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <div class="card-body">
+                    <p class="card-text">The Acolyte Launch Event Takes Hollywood</p>
+                  </div>
+                </div>
+                <div class="card ms-5" style="width: 26rem">
+                  <iframe width="100%" src="https://www.youtube.com/embed/B0WxdRadrm8?si=dCWMVzXIAHurjPy_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                  <div class="card-body">
+                    <p class="card-text">Creating the acolyte | The Acolyte</p>
+                  </div>
+                </div>
+                <div class="card ms-5" style="width: 26rem">
+                  <iframe width="100%" src="https://www.youtube.com/embed/ABX8upKvrto?si=DYnNuv6iFee3bi19" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                  <div class="card-body">
+                    <p class="card-text">Mae and Sol Fight | The Acolyte</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="mt-5">
+            <h4>Explore More</h4>
+            <hr>
+            <div
+            id="carouselExampleAutoplaying"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card" style="width: 26rem">
+                  <img
+                    src="https://lumiere-a.akamaihd.net/v1/images/franchsie-slider-logos-disneyplus_4dd619d3.jpeg?region=0%2C0%2C1536%2C864"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Star Wars on Display+</p>
+                  </div>
+                </div>
+                <div class="card ms-5" style="width: 26rem">
+                  <img src="https://lumiere-a.akamaihd.net/v1/images/eras-169_c9428175.jpeg?region=0%2C0%2C1536%2C864" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">The Eras of Star Wars</p>
+                  </div>
+                </div>
+                <div class="card ms-5" style="width: 26rem">
+                  <img src="https://lumiere-a.akamaihd.net/v1/images/swcj25-franchise-slider_1f18826e.jpeg?region=0%2C0%2C1280%2C720" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Star Wars Celebration</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="mt-5">
+            <h4>Star Wars Legendary Features </h4>
+            <hr>
+            <button onclick="renderCharacters()" id="charactersOnclick">
+              Karakterleri Göster
+            </button>
+            <div class="row">
+              <div class="col-3 formRadio mt-5" id="homeworldsFilterContainer">
+              </div>
+              <div class="col-9">
+                <div class=" carsdofrow" id="cardsOfCharacters">
+                </div> 
+              </div>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-text">
+        <div class="socialMedia">
+          <ul>
+            <li>
+              <a href="/"
+                ><i class="fa-brands fa-tiktok fa-lg" style="color: #ffffff"></i>
+              </a>
+            </li>
+            <li>
+              <a href="/">
+                <i
+                  class="fa-brands fa-instagram fa-lg"
+                  style="color: #ffffff"
+                ></i>
+              </a>
+            </li>
+            <li>
+              <a href="/">
+                <i
+                  class="fa-brands fa-x-twitter fa-lg"
+                  style="color: #ffffff"
+                ></i>
+              </a>
+            </li>
+            <li>
+              <a href="/">
+                <i class="fa-brands fa-facebook fa-lg" style="color: #ffffff"></i>
+              </a>
+            </li>
+            <li>
+              <a href="/">
+                <i class="fa-brands fa-youtube fa-lg" style="color: #ffffff"></i>
+              </a>
+            </li>
+            <li>
+              <a href="/">
+                <img
+                  src="https://lumiere-a.akamaihd.net/v1/images/sw_nav_kids_937ed58b.svg?region=0%2C0%2C40%2C15"
+                  alt="..."
+                  width="50"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
